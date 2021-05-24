@@ -1,0 +1,47 @@
+body {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+}
+
+.Result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.CopyButton {
+	border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    background-color: #542094;
+    color: #fff;
+}
+
+#alertResult {
+	z-index: 2;
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	right: 5%;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 5px;
+	color: green;
+}
+
+input {
+	height: 50px;
+    text-align: center;
+    font-size: 25px!important;
+    width: 80%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}

@@ -1,0 +1,98 @@
+body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+font-size: 20px;
+font-family: "Roboto",sans-serif;
+}
+
+.Recieve {
+height: auto;
+margin: 0;
+padding: 0;
+width: 100%;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.imgPanel {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin-top: 40px;
+flex-direction: column;
+    grid-row-start: 1;
+grid-row-end: 2;
+    grid-column-start: 2;
+grid-column-end: 3;
+}
+
+.contentPanelElements {
+width: 80%;
+height: auto;
+align-items: center;
+}
+
+.ContentPanel, .contentPanelElements {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.ContentPanel{
+margin-top: 40px;
+align-items: flex-end;
+width: 100%;
+}
+
+#statusIndicator {
+margin-top: 20px;
+width: 250px;
+height: 30px;
+border-radius: 0px;
+}
+
+#input {
+width: 85%;
+height: 50px;
+margin-top: 20px;
+font-size: 20px;
+outline: none;
+border: 1px solid #000;
+border-radius: 10px;
+text-align: center;
+}
+
+#download {
+border-radius: 5rem;
+height: 3.7rem;
+width: 45%;
+border: none;
+margin-top: 20px;
+font-size: 1.7rem;
+color: #fff;
+background-color: #6125ac;
+margin-top: 15px;
+outline: none;
+}
+
+.para {
+	border-bottom: 1px solid grey; 
+	margin: 0px; 
+	text-align: left;
+}
+
+.url {
+	margin-top: 20px;
+}
+
+.URLdisplay {
+	width: 85%;
+    border: 1px solid #000;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+}
